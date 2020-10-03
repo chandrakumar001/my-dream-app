@@ -4,4 +4,4 @@ applications:
   path: ./dist/my-dream-app
   random-route: false
   buildpacks:
-  - https://github.com/cloudfoundry/staticfile-buildpack
+    - https://github.com/cloudfoundry/staticfile-buildpack
