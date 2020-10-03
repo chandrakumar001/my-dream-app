@@ -1,5 +1,5 @@
 applications:
-- name: my-dream-app-20201003044241075
+- name: my-dream-app
   memory: 200M 
 - path: ./dist/my-dream-app
   random-route: false
