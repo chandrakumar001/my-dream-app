@@ -1,7 +1,7 @@
 applications:
 - name: my-dream-app
-  memory: 1G 
-  path: dist/my-dream-app
+  memory: 900M 
+  path: ./dist/my-dream-app
   random-route: false
   buildpacks:
   - https://github.com/cloudfoundry/staticfile-buildpack
