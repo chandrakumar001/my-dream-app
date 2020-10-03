@@ -1,0 +1,7 @@
+applications:
+- name: my-dream-app
+  memory: 900M 
+- path: ./dist/my-dream-app
+  random-route: false
+  buildpacks:
+    - staticfile_buildpack
